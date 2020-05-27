@@ -1,6 +1,6 @@
 {
   "name": "orm-pagination",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A pagination plugin for typeorm written for node express",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -32,5 +32,8 @@
   },
   "dependencies": {
     "typeorm": "^0.2.25"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
