@@ -1,0 +1,35 @@
+{
+  "name": "typeorm-pagination",
+  "version": "1.0.0",
+  "description": "A pagination plugin for typeorm written for node express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savannabits/typeorm-pagination.git"
+  },
+  "keywords": [
+    "typeorm",
+    "typescript",
+    "node",
+    "express",
+    "pagination",
+    "database",
+    "savannabits"
+  ],
+  "author": "Sam Maosa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/savannabits/typeorm-pagination/issues"
+  },
+  "homepage": "https://github.com/savannabits/typeorm-pagination#readme",
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "typeorm": "^0.2.25"
+  }
+}
