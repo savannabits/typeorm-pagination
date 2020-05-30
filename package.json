@@ -1,12 +1,13 @@
 {
-  "name": "orm-pagination",
+  "name": "typeorm-pagination",
   "version": "1.0.3",
   "description": "A pagination plugin for typeorm written for node express",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",
@@ -31,9 +32,13 @@
     "typescript": "^3.9.3"
   },
   "dependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.6",
+    "express": "^4.17.1",
     "typeorm": "^0.2.25"
   },
   "files": [
-    "dist"
+    "dist",
+    "@types"
   ]
 }
