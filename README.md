@@ -55,7 +55,7 @@ export class UserController {
 
     async all(request: Request, response: Response, next: NextFunction) {
         let users = await this.repo.createQueryBuilder('user')
-        .paginate(getPerPage(request), getPage(request));
+        .paginate(getPage(request),getPerPage(request)); //paginate(page,[per_page=15])
         return response.status(200).json(users);
     }
 }
@@ -66,7 +66,7 @@ export class UserController {
 
 Sample Request:
 ```js
-GET http://localhost:3000/api/users?page=1&per_page=10
+GET http://localhost:3000/api/users?page=1&per_page=15
 ```
 Sample Result:
 ```json
