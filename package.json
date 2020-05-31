@@ -1,6 +1,6 @@
 {
   "name": "typeorm-pagination",
-  "version": "2.0.0-beta5",
+  "version": "2.0.0",
   "description": "A pagination plugin for typeorm written for node express",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/savannabits/typeorm-pagination#readme",
   "devDependencies": {
+    "chai": "^4.2.0",
     "typescript": "^3.9.3"
   },
   "dependencies": {
