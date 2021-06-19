@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --reporter spec",
     "build": "tsc",
     "prepublish": "tsc"
   },
@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "mocha": "^9.0.1",
     "typeorm": "^0.2.25"
   },
   "files": [
