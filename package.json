@@ -1,6 +1,6 @@
 {
   "name": "typeorm-pagination",
-  "version": "v2.0.2",
+  "version": "v2.0.3",
   "description": "A pagination plugin for typeorm written for node express",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
