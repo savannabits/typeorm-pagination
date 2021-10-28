@@ -7,7 +7,7 @@
 
 # typeorm-pagination - The missing pagination extension for typeORM
 
-TypeORM is one of the most popular ORM frameworks for node.js. This middleware is the missing pagination extension for typeORM specifically tailored apps running on the for expressjs or koajs frameworks.
+TypeORM is one of the most popular ORM frameworks for node.js. This middleware is the missing pagination extension for typeORM specifically tailored  for apps running on the expressjs or koajs frameworks.
 
 ## Installation
 ### Pre-requisites:
